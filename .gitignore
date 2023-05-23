@@ -1,0 +1,10 @@
+temp/
+PATCHED_FILE/
+GAME_IMAGE_FILE/*
+SD_FILES/*
+
+node_modules/
+.vscode/
+.DS_Store
+test.*
+```

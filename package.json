@@ -1,0 +1,17 @@
+{
+  "name": "riivolutionisopatcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "patch": "node patch-image.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "cli-select": "^1.1.2",
+    "fast-xml-parser": "^4.2.2",
+    "sync-rest-client": "^1.0.3"
+  }
+}
