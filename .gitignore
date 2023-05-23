@@ -1,7 +1,7 @@
 temp/
 PATCHED_FILE/
-GAME_IMAGE_FILE/*
-SD_FILES/*
+GAME_IMAGE_FILE/*.*
+SD_FILES/*/
 
 node_modules/
 .vscode/
