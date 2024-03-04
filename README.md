@@ -10,12 +10,25 @@ To download this software, go to the [releases](https://github.com/JiningLiu/Rii
 
 If you want a pure terminal experience, just do ```git clone``` on the repo and ```cd``` into it.
 
-### Pre-requisites
+## Pre-requisites
 
-The following softwares needs to be installed prior to running the software: 
+The following softwares needs to be installed prior to running the software, no matter the operating system. 
 
 * [Wiimm's ISO Tools (WIT)](https://wit.wiimm.de)
 * [Node.js & NPM](https://nodejs.org/)
+
+### For non-UNIX based systems (i.e. Windows)
+
+Sice ```pwd``` does not exist on Windows, you can try to create an alias for the ```pwd``` command by running the following in your terminal: 
+```
+(echo @echo off
+echo echo ^%cd^%) > C:\WINDOWS\pwd.bat
+```
+([Source](https://stackoverflow.com/questions/921741/windows-equivalent-to-unix-pwd))
+
+This command will make ```pwd``` the same as ```echo %cd%``` on Windows, but it may require a terminal restart or even a machine restart.
+
+Other non-UNIX based systems may have different solutions.
 
 ### Patching your game
 
